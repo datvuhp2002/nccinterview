@@ -4,7 +4,7 @@ import { router } from "./Pages/Routers";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/nccinterview">
       <div className="App">
         <Routes>
           {router.map((route, index) => {
