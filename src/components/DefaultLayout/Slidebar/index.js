@@ -9,7 +9,7 @@ export default function Slidebar() {
     <div className={cx("wrapper")}>
       {router.map((item, index) => {
         return (
-          <div className={cx("link")}>
+          <div key={index} className={cx("link")}>
             <NavLink to={item.path} end>
               <span>{item.name}</span>
             </NavLink>
