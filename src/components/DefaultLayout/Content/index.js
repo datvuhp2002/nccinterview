@@ -9,12 +9,7 @@ const cx = classNames.bind(styles);
 export default function Content() {
   return (
     <div className={cx("wrapper")}>
-      <img
-        // src="../../../assets/img/logoNCC1.jpg"
-        src={logo}
-        className={cx("img")}
-        alt=""
-      />
+      <img src={logo} className={cx("img")} alt="" />
       <div className={cx("groupContent")}>
         <div className={cx("group1")}>
           <h2>Lorem ipsum dolor sit asmet?</h2>

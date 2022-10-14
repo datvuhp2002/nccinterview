@@ -7,8 +7,8 @@
     justify-content: center;
     overflow-x: hidden;
     .img{
-        @include mobile{
-            margin-top: 10rem;
+        @include tabletAndMoblie{
+            margin-top: 5rem;
         }
         padding-top: 2rem;
         padding-bottom: 3rem;
