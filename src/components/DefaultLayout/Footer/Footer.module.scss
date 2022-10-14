@@ -1,0 +1,27 @@
+@import "../../GlobalStyles/Mixin/mixin.scss";
+.wrapper{
+    // position: absolute;
+    // width: 1768px;
+    // height: 79px;
+    // display: ;
+    // position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-top: 4rem;
+    
+    span{
+        padding: 3rem 0 3rem 12.9rem;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #3E3E3E;
+        
+    }
+    &::before{
+        content: "";
+        width: 100%;
+        border: 1px solid #DEDEDE;
+    }
+}

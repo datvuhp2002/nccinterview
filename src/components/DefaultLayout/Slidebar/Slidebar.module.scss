@@ -1,0 +1,36 @@
+.wrapper{
+    // position: absolute;
+    flex: none;
+    width: 150px;
+    min-height: 935px;
+    background: #191718;
+    color: var(--unActive);
+    display: flex;
+    flex-direction: column;
+    .link{
+        display: flex;
+        flex-direction: column;
+        a{
+            display: flex;
+            // flex-direction: column;
+            height: 100%;
+            min-height: 4.4rem;
+            align-items: center;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 1.6rem;
+            line-height: 1.9rem;
+            padding-top: 14px;
+            padding-bottom: 11px;
+            padding-left: 16px;
+        }
+        &::after{
+            content: "";
+            border: 1px solid #5C5C5C;
+        }
+        &:hover{
+            background-color: #5c5c5c;
+        }
+    }
+    
+}

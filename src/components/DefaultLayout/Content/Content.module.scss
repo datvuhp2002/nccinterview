@@ -1,0 +1,77 @@
+@import "../../GlobalStyles/Mixin/mixin.scss";
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    .img{
+        @include mobile{
+            margin-top: 10rem;
+        }
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+    .groupContent{
+        width: 85%;
+        .group1{
+            background: #EFEFEF;
+            // display: flex;
+            h2{
+                padding-top: 3.8rem;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 21px;
+            }
+            span{
+                padding-top: 1.8rem;
+                padding-bottom: 3.8rem;
+                max-width: 65%;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+                margin: auto;
+            }
+        }
+        .group2{
+            
+            display: flex;
+            text-align: start;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            .group2-item{
+                margin-top: 4rem;
+                @include mobile{
+                    width: 100%;
+                }
+                @include desktop{
+                    width: 30%;
+                }
+                h2{
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 28px;
+                }
+                span{
+                    img{
+                        float: left;
+                    }
+                    p{
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                    }
+                }
+            }
+        }
+    }
+}
