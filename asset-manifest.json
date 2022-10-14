@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/nccinterview/static/css/main.cb6f1d32.css",
+    "main.js": "/nccinterview/static/js/main.d0d10f7e.js",
+    "static/js/787.e85a0395.chunk.js": "/nccinterview/static/js/787.e85a0395.chunk.js",
+    "static/media/logoNCC1.jpg": "/nccinterview/static/media/logoNCC1.b1873bd3aa1b13aac851.jpg",
+    "static/media/urlicon.png": "/nccinterview/static/media/urlicon.82d9e5b54fa46dbf4f7c.png",
+    "static/media/htmlicon.png": "/nccinterview/static/media/htmlicon.c5aa0f38e5ef72b5f369.png",
+    "static/media/cssicon.png": "/nccinterview/static/media/cssicon.f0206779c57662ba78b7.png",
+    "index.html": "/nccinterview/index.html",
+    "main.cb6f1d32.css.map": "/nccinterview/static/css/main.cb6f1d32.css.map",
+    "main.d0d10f7e.js.map": "/nccinterview/static/js/main.d0d10f7e.js.map",
+    "787.e85a0395.chunk.js.map": "/nccinterview/static/js/787.e85a0395.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb6f1d32.css",
+    "static/js/main.d0d10f7e.js"
+  ]
+}
